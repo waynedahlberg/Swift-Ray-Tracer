@@ -15,7 +15,20 @@
 		5D949F0225EB2085002D1DA1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F0125EB2085002D1DA1 /* Helpers.swift */; };
 		5D949F0B25EB21DD002D1DA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D949F0A25EB21DD002D1DA1 /* README.md */; };
 		5D949F0F25EB21F8002D1DA1 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F0E25EB21F8002D1DA1 /* Tuple.swift */; };
+		5D949F1925EB24BC002D1DA1 /* Swift_Ray_Tracer_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F1825EB24BC002D1DA1 /* Swift_Ray_Tracer_Tests.swift */; };
+		5D949F2425EB2656002D1DA1 /* TuplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F2325EB2656002D1DA1 /* TuplesTests.swift */; };
+		5D949F2C25EB2D2E002D1DA1 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F2B25EB2D2E002D1DA1 /* Matrix.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D949F1B25EB24BC002D1DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D949EE125EB1FE7002D1DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D949EE825EB1FE7002D1DA1;
+			remoteInfo = "Swift Ray Tracer";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5D949EE925EB1FE7002D1DA1 /* Swift Ray Tracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Ray Tracer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +42,22 @@
 		5D949F0125EB2085002D1DA1 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		5D949F0A25EB21DD002D1DA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D949F0E25EB21F8002D1DA1 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		5D949F1625EB24BC002D1DA1 /* Swift Ray Tracer Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Ray Tracer Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D949F1825EB24BC002D1DA1 /* Swift_Ray_Tracer_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Ray_Tracer_Tests.swift; sourceTree = "<group>"; };
+		5D949F1A25EB24BC002D1DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D949F2325EB2656002D1DA1 /* TuplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuplesTests.swift; sourceTree = "<group>"; };
+		5D949F2B25EB2D2E002D1DA1 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5D949EE625EB1FE7002D1DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D949F1325EB24BC002D1DA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				5D949EEB25EB1FE7002D1DA1 /* Swift Ray Tracer */,
+				5D949F1725EB24BC002D1DA1 /* Swift Ray Tracer Tests */,
 				5D949EEA25EB1FE7002D1DA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5D949EE925EB1FE7002D1DA1 /* Swift Ray Tracer.app */,
+				5D949F1625EB24BC002D1DA1 /* Swift Ray Tracer Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				5D949F0D25EB21EB002D1DA1 /* Chapter 1 */,
+				5D949F2A25EB2D1F002D1DA1 /* Chapter 2 */,
+				5D949F2925EB2D18002D1DA1 /* Chapter 3 */,
 				5D949EEC25EB1FE7002D1DA1 /* AppDelegate.swift */,
 				5D949EEE25EB1FE7002D1DA1 /* ContentView.swift */,
 				5D949EF025EB1FE9002D1DA1 /* Assets.xcassets */,
@@ -99,6 +128,31 @@
 			path = "Chapter 1";
 			sourceTree = "<group>";
 		};
+		5D949F1725EB24BC002D1DA1 /* Swift Ray Tracer Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D949F1825EB24BC002D1DA1 /* Swift_Ray_Tracer_Tests.swift */,
+				5D949F1A25EB24BC002D1DA1 /* Info.plist */,
+				5D949F2325EB2656002D1DA1 /* TuplesTests.swift */,
+			);
+			path = "Swift Ray Tracer Tests";
+			sourceTree = "<group>";
+		};
+		5D949F2925EB2D18002D1DA1 /* Chapter 3 */ = {
+			isa = PBXGroup;
+			children = (
+				5D949F2B25EB2D2E002D1DA1 /* Matrix.swift */,
+			);
+			path = "Chapter 3";
+			sourceTree = "<group>";
+		};
+		5D949F2A25EB2D1F002D1DA1 /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Chapter 2";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,6 +173,24 @@
 			productReference = 5D949EE925EB1FE7002D1DA1 /* Swift Ray Tracer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5D949F1525EB24BC002D1DA1 /* Swift Ray Tracer Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D949F1D25EB24BC002D1DA1 /* Build configuration list for PBXNativeTarget "Swift Ray Tracer Tests" */;
+			buildPhases = (
+				5D949F1225EB24BC002D1DA1 /* Sources */,
+				5D949F1325EB24BC002D1DA1 /* Frameworks */,
+				5D949F1425EB24BC002D1DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D949F1C25EB24BC002D1DA1 /* PBXTargetDependency */,
+			);
+			name = "Swift Ray Tracer Tests";
+			productName = "Swift Ray Tracer Tests";
+			productReference = 5D949F1625EB24BC002D1DA1 /* Swift Ray Tracer Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,6 +202,10 @@
 				TargetAttributes = {
 					5D949EE825EB1FE7002D1DA1 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					5D949F1525EB24BC002D1DA1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5D949EE825EB1FE7002D1DA1;
 					};
 				};
 			};
@@ -147,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				5D949EE825EB1FE7002D1DA1 /* Swift Ray Tracer */,
+				5D949F1525EB24BC002D1DA1 /* Swift Ray Tracer Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D949F1425EB24BC002D1DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -171,13 +255,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D949F0F25EB21F8002D1DA1 /* Tuple.swift in Sources */,
+				5D949F2C25EB2D2E002D1DA1 /* Matrix.swift in Sources */,
 				5D949EEF25EB1FE7002D1DA1 /* ContentView.swift in Sources */,
 				5D949F0225EB2085002D1DA1 /* Helpers.swift in Sources */,
 				5D949EED25EB1FE7002D1DA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D949F1225EB24BC002D1DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D949F2425EB2656002D1DA1 /* TuplesTests.swift in Sources */,
+				5D949F1925EB24BC002D1DA1 /* Swift_Ray_Tracer_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D949F1C25EB24BC002D1DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D949EE825EB1FE7002D1DA1 /* Swift Ray Tracer */;
+			targetProxy = 5D949F1B25EB24BC002D1DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D949EF525EB1FE9002D1DA1 /* Main.storyboard */ = {
@@ -354,6 +456,46 @@
 			};
 			name = Release;
 		};
+		5D949F1E25EB24BC002D1DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				INFOPLIST_FILE = "Swift Ray Tracer Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.Swift-Ray-Tracer-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Ray Tracer.app/Contents/MacOS/Swift Ray Tracer";
+			};
+			name = Debug;
+		};
+		5D949F1F25EB24BC002D1DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				INFOPLIST_FILE = "Swift Ray Tracer Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.Swift-Ray-Tracer-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Ray Tracer.app/Contents/MacOS/Swift Ray Tracer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -371,6 +513,15 @@
 			buildConfigurations = (
 				5D949EFD25EB1FE9002D1DA1 /* Debug */,
 				5D949EFE25EB1FE9002D1DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D949F1D25EB24BC002D1DA1 /* Build configuration list for PBXNativeTarget "Swift Ray Tracer Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D949F1E25EB24BC002D1DA1 /* Debug */,
+				5D949F1F25EB24BC002D1DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
