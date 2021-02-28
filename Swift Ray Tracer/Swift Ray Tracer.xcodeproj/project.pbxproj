@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D949EED25EB1FE7002D1DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949EEC25EB1FE7002D1DA1 /* AppDelegate.swift */; };
+		5D949EEF25EB1FE7002D1DA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949EEE25EB1FE7002D1DA1 /* ContentView.swift */; };
+		5D949EF125EB1FE9002D1DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D949EF025EB1FE9002D1DA1 /* Assets.xcassets */; };
+		5D949EF425EB1FE9002D1DA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D949EF325EB1FE9002D1DA1 /* Preview Assets.xcassets */; };
+		5D949EF725EB1FE9002D1DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D949EF525EB1FE9002D1DA1 /* Main.storyboard */; };
+		5D949F0225EB2085002D1DA1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F0125EB2085002D1DA1 /* Helpers.swift */; };
+		5D949F0B25EB21DD002D1DA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D949F0A25EB21DD002D1DA1 /* README.md */; };
+		5D949F0F25EB21F8002D1DA1 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D949F0E25EB21F8002D1DA1 /* Tuple.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D949EE925EB1FE7002D1DA1 /* Swift Ray Tracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Ray Tracer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D949EEC25EB1FE7002D1DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D949EEE25EB1FE7002D1DA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D949EF025EB1FE9002D1DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D949EF325EB1FE9002D1DA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D949EF625EB1FE9002D1DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D949EF825EB1FE9002D1DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D949EF925EB1FE9002D1DA1 /* Swift_Ray_Tracer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_Ray_Tracer.entitlements; sourceTree = "<group>"; };
+		5D949F0125EB2085002D1DA1 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5D949F0A25EB21DD002D1DA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D949F0E25EB21F8002D1DA1 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D949EE625EB1FE7002D1DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D949EE025EB1FE7002D1DA1 = {
+			isa = PBXGroup;
+			children = (
+				5D949EEB25EB1FE7002D1DA1 /* Swift Ray Tracer */,
+				5D949EEA25EB1FE7002D1DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D949EEA25EB1FE7002D1DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D949EE925EB1FE7002D1DA1 /* Swift Ray Tracer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D949EEB25EB1FE7002D1DA1 /* Swift Ray Tracer */ = {
+			isa = PBXGroup;
+			children = (
+				5D949F0D25EB21EB002D1DA1 /* Chapter 1 */,
+				5D949EEC25EB1FE7002D1DA1 /* AppDelegate.swift */,
+				5D949EEE25EB1FE7002D1DA1 /* ContentView.swift */,
+				5D949EF025EB1FE9002D1DA1 /* Assets.xcassets */,
+				5D949EF525EB1FE9002D1DA1 /* Main.storyboard */,
+				5D949EF825EB1FE9002D1DA1 /* Info.plist */,
+				5D949EF925EB1FE9002D1DA1 /* Swift_Ray_Tracer.entitlements */,
+				5D949EF225EB1FE9002D1DA1 /* Preview Content */,
+				5D949F0025EB206E002D1DA1 /* Helpers */,
+				5D949F0A25EB21DD002D1DA1 /* README.md */,
+			);
+			path = "Swift Ray Tracer";
+			sourceTree = "<group>";
+		};
+		5D949EF225EB1FE9002D1DA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D949EF325EB1FE9002D1DA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D949F0025EB206E002D1DA1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D949F0125EB2085002D1DA1 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5D949F0D25EB21EB002D1DA1 /* Chapter 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5D949F0E25EB21F8002D1DA1 /* Tuple.swift */,
+			);
+			path = "Chapter 1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D949EE825EB1FE7002D1DA1 /* Swift Ray Tracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D949EFC25EB1FE9002D1DA1 /* Build configuration list for PBXNativeTarget "Swift Ray Tracer" */;
+			buildPhases = (
+				5D949EE525EB1FE7002D1DA1 /* Sources */,
+				5D949EE625EB1FE7002D1DA1 /* Frameworks */,
+				5D949EE725EB1FE7002D1DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Ray Tracer";
+			productName = "Swift Ray Tracer";
+			productReference = 5D949EE925EB1FE7002D1DA1 /* Swift Ray Tracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D949EE125EB1FE7002D1DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5D949EE825EB1FE7002D1DA1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5D949EE425EB1FE7002D1DA1 /* Build configuration list for PBXProject "Swift Ray Tracer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D949EE025EB1FE7002D1DA1;
+			productRefGroup = 5D949EEA25EB1FE7002D1DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D949EE825EB1FE7002D1DA1 /* Swift Ray Tracer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D949EE725EB1FE7002D1DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D949EF725EB1FE9002D1DA1 /* Main.storyboard in Resources */,
+				5D949EF425EB1FE9002D1DA1 /* Preview Assets.xcassets in Resources */,
+				5D949F0B25EB21DD002D1DA1 /* README.md in Resources */,
+				5D949EF125EB1FE9002D1DA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D949EE525EB1FE7002D1DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D949F0F25EB21F8002D1DA1 /* Tuple.swift in Sources */,
+				5D949EEF25EB1FE7002D1DA1 /* ContentView.swift in Sources */,
+				5D949F0225EB2085002D1DA1 /* Helpers.swift in Sources */,
+				5D949EED25EB1FE7002D1DA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D949EF525EB1FE9002D1DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D949EF625EB1FE9002D1DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D949EFA25EB1FE9002D1DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D949EFB25EB1FE9002D1DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5D949EFD25EB1FE9002D1DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swift Ray Tracer/Swift_Ray_Tracer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift Ray Tracer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift Ray Tracer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.Swift-Ray-Tracer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D949EFE25EB1FE9002D1DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swift Ray Tracer/Swift_Ray_Tracer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift Ray Tracer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift Ray Tracer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.Swift-Ray-Tracer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D949EE425EB1FE7002D1DA1 /* Build configuration list for PBXProject "Swift Ray Tracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D949EFA25EB1FE9002D1DA1 /* Debug */,
+				5D949EFB25EB1FE9002D1DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D949EFC25EB1FE9002D1DA1 /* Build configuration list for PBXNativeTarget "Swift Ray Tracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D949EFD25EB1FE9002D1DA1 /* Debug */,
+				5D949EFE25EB1FE9002D1DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D949EE125EB1FE7002D1DA1 /* Project object */;
+}
